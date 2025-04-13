@@ -1,0 +1,92 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: white;
+    padding: 32px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+a{text-decoration: none;}
+.logo{
+    font-size: 32px;
+    color: black;
+    font-weight: 400;
+}
+.nav-navbar a{
+    font-size: 24px;
+    color: black;
+    margin: 16px;
+}
+.nav-navbar a:hover{
+    color: blue;
+}
+.po .fi{
+    font-size: 32px;
+    color: black;
+    margin-left: 24px;
+}
+.po .fi:hover{
+    color: blue;
+}
+.product .all2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.all2 .img{
+    padding: 24px;
+    text-align: center;
+}
+.all2 .img img{
+    height: 320px;
+    margin-left: 25px;
+    justify-content: center;
+}
+.img button{
+    background-color: rgb(245, 245, 245);
+}
+.img button a{color: black;}
+.prix{
+    border: 1px solid black;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.prix:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+img{
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-right: 30px;
+}
+footer .foo{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .foo  a{
+    color: rgb(168, 164, 164);
+    font-size: 20px;
+    padding-bottom: 24px;
+    display: block;
+}
+footer .foo .ba1{
+    margin-left: 10px;
+}
+footer .foo .ba2{
+    margin-right: 10px;
+}
+i{
+    color: rgb(0, 0, 255);
+}
